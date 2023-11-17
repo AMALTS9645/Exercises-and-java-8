@@ -1,0 +1,66 @@
+UML - unified modelling language
+ _____________
+| Abstraction |
+|_____________|
+
+ _____________
+|Encapsulation|
+|_____________|
+
+ _____________
+|Decomposition|
+|_____________|_________________________________________________________________________________________________
+- relationships are classified into 3 association,Aggregation,Composition
+
+1.)Association - two objects are related but they can exists individually.
+	         Eg; Flight and person, Fridge and Fruits.
+	         its a loose relation.
+	         Flight---Person
+
+2.)Aggregation - It is Has-A relationship where one object is dependant on the other (Not both depended)
+	         Eg: Flight and crew-members.
+	         Flight<>---Crew-members  diamond symbol.	
+
+3.)Composition - It is a strong Has-A relationship were both objects are dependent on each other and no one can exist individually.
+		 Eg: Person and Brain
+		     Employee and salary
+		 Person<>---<>Brain also denoted by single dark diamond
+		 strong aggregation
+
+ ______________
+|Generalization|
+|______________|________________________________________________________________________________________________
+Rather than writings common things again and again we write a common class and multiple classes extending that common class
+Inheritance
+Eg: Animal, Cat extends Animal, Dog extends Animal
+----> is used
+			Animal
+			  ^
+                  ________|_________
+		 |		    |
+		Dog		   Cat
+
+--------------------------------------------------------------------------------------------------------------------
+class diagram
+--------------
+in class diagram
+- means private
++ means public
+# means protected
+~ default
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
