@@ -1,0 +1,5 @@
+Local Date = represents date (yyyy-MM-dd) / 2023-05-03
+
+Local time = represents time (hh:mm:ss)/11:40:20
+
+LocalTimeDate = Both date and time (yyyy-MM-ddThh:mm:ss)/2023-05-03T11:40:20

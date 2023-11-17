@@ -1,0 +1,6 @@
+functional interface - an interface consists of single abstract method
+lambda expressions are the implementations of those functional interfaces
+
+
+we can have default and static methods inside functional interfaces
+

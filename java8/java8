@@ -1,0 +1,10 @@
+java 8
+
+features
+--------
+
+1. default and static methods in interface
+2. functional interface and lambda expression
+3. stream API
+4. collection API improvements
+5. Date and time API improvement
