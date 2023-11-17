@@ -1,0 +1,10 @@
+regex
+
+[abc] - either a or b or c
+str="a"
+
+[abc]* - zero or more numbers of a or b or c
+[abc]+ - one or more numbers of a or b or c
+[a-z]* - zero or more character
+[a-zA-Z] -  zero or more character including uppercase
+[a-zA-Z0-9]* - zero or more characters includig digits
