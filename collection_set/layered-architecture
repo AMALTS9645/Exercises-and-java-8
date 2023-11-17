@@ -1,0 +1,6 @@
+layered architecture
+
+-ui layer
+-business layer/ service layer
+-repository layer/DAO layer/persistance layer
+-model/entity layer
